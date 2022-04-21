@@ -1,0 +1,15 @@
+[submodule "near/near-api-js"]
+	path = near/near-api-js
+	url = https://github.com/Learn-NEAR/starter--near-api-js
+[submodule "near/starter--near-sdk-rs"]
+	path = near/starter--near-sdk-rs
+	url = git@github.com:Learn-NEAR/starter--near-sdk-rs.git
+[submodule "near/rust-counter"]
+	path = near/rust-counter
+	url = git@github.com:near-examples/rust-counter.git
+[submodule "near/rust-status-message"]
+	path = near/rust-status-message
+	url = git@github.com:near-examples/rust-status-message.git
+[submodule "near/guessing_game"]
+	path = near/guessing_game
+	url = git@github.com:Arthur-Kamau/near-certification-project.git
