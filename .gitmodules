@@ -13,3 +13,6 @@
 [submodule "near/guessing_game"]
 	path = near/guessing_game
 	url = git@github.com:Arthur-Kamau/near-certification-project.git
+[submodule "rust/rust-modules-example"]
+	path = rust/rust-modules-example
+	url = https://github.com/saiumesh535/rust-modules-example
