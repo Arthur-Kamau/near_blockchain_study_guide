@@ -16,7 +16,9 @@ const resposnes = myFunction(300*400);
 console.log(" result is "+resposnes)
 
 
-
+//arrow functions
+let myFunction2 = (a, b) => a * b;
+console.log(" result is "+myFunction2(23*45));
 
 //callback / predicate
 setTimeout(function () {

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // scope
+        let carName = "Volvo";
+        // code here can use carName
+
+        function myFunction() {
+            // code here can also use carName
+            console.log("Car is " + carName);
+
+            // function scope 
+            const aNewCar = "Mercedes"
+        }
+
+
+        // dangers of var
+        // let to the rescue 
+        {
+            var y = 2;
+        }
+        // x CAN be used here
+        {
+            let x = 2;
+        }
+
+        // console.log("lets print x "+x);
+        console.log("lets print y "+y);
+
+
+    </script>
+</body>
+
+</html>
