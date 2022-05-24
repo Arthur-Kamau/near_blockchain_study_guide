@@ -1,12 +1,21 @@
 use rand::Rng;
 use std::cmp::Ordering;
 use std::io;
+   // let mut new_string = String::new(); //Create an empty string
+    // new_string.push_str("Hello");
+    // new_string.push_str(" World!");
+    
+    // println!("{}", new_string); //Prints Hello World!
 
-fn main() {
+    //let mut new_string_2 = "hello";
+   // new_string_2.push_str(" World!");
+
+fn main() {    
     println!("Guess the number!");
 
     let secret_number = rand::thread_rng().gen_range(1..101);
 
+    // while true loop
     loop {
         println!("Please input your guess.");
 

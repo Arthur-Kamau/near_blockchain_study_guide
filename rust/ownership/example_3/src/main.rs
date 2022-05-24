@@ -1,5 +1,6 @@
-//one
 /*
+//one
+
 #[derive(Debug)]
 struct DropMe;
 
@@ -8,6 +9,12 @@ impl Drop for DropMe {
         println!("Dropping!");
     }
 }
+impl DropMe{
+    fn sample(&self) {
+        println!("Sample!");
+    }
+}
+
 
 /**
  *
@@ -21,20 +28,22 @@ impl Drop for DropMe {
 fn main() {
     println!("Begin outer scope.");
 
+    let vecs = vec![1,2,3,4];
     {
         println!("Begin inner scope.");
-
+ 
+        let y =  vecs;
         let x = DropMe;
 
-        println!("x: {:?}", x);
+        println!("x: {:?}  == y: {:?}", x, y);
     }
 
-    println!("End outer scope.");
+    println!("End outer scope. {:?}", vecs);
 }
 */
 
 // two
-/*
+
 fn pass_number_by_reference(number: &i8) -> bool {
     number.is_negative()
 }
@@ -68,8 +77,4 @@ fn main() {
     println!("vec {:?} is_empty: {}", vec, is_empty);
 }
 
-*/
 
-fn main(){
-    
-}

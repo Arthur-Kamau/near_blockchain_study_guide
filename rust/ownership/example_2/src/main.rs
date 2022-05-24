@@ -1,5 +1,4 @@
 //one
-/*
 #[derive(Debug)] // no more copy
 struct Person {
     age: u8
@@ -13,9 +12,9 @@ fn main() {
 }
 
 
-*/
+/*
 // two
-/**
+
 fn sum(vector: &Vec<i32>) -> i32 { // borrow signature
     let mut sum = 0;
 
@@ -26,15 +25,15 @@ fn sum(vector: &Vec<i32>) -> i32 { // borrow signature
     sum
 }
 
-// three
 fn main() {
-    let v = vec![1,2,3];
-    let v_ref = &v;  // v_ref borrows v
-    let s = sum(v_ref);
+    let v = vec![1,2,3,4];
+   // let v_ref = &v;  // v_ref borrows v
+    let s = sum(&v);
 
-    println!("sum of {:?}: {}", v_ref, s); // no error
+    println!("sum of {:?}: {}", v, s); // no error
 }
- */
+*/
+ 
 
 //four
 /*
@@ -59,13 +58,10 @@ fn sum(vector: Vec<i32>) -> i32 {
 }
 
 fn main() {
-    let v = vec![1,2,3];
+    let v = vec![1,2,3,4];
     let s = sum(v); // watch out, v was MOVED!
 
     println!("sum: {}", s);
 }
-*/
 
-fn main(){
-    
-}
+*/
