@@ -1,11 +1,26 @@
-# Bitcoinke Blockchain coourse.
-
+# Blockchain coourse.
 The purpose of this repo is to 
  1. Hold course work material and links.
  2. To hold sample projects and execise projects.
  3. As a reference for students on self paces learning.
 
+Attached is also the course oultline to guide your leaning pace  `Crash Course  Outline -   NEAR .pdf`.
+
 # Important Links.
 
-1.  Course work for the course. `https://docs.google.com/document/d/1wgG6Mwdkr0dxy7kAk97wIZq6dL2NPlmT6QRpczNltn0/edit?usp=sharing`
-2.  Near Certification powerpoint `https://docs.google.com/presentation/d/1a7fVnVjn1u29C1T30DAv6pJmb4YlnvAzenFZHQoTUSI/edit#slide=id.g10ccda4a564_1_80`
+*  Near Certification powerpoint `https://docs.google.com/presentation/d/1a7fVnVjn1u29C1T30DAv6pJmb4YlnvAzenFZHQoTUSI/edit#slide=id.g10ccda4a564_1_80`
+
+
+*  `https://www.w3schools.com/jsref/default.asp` learn js 
+
+*  `https://docs.near.org/tools/near-api-js/quick-reference` learn near api js
+
+* `https://doc.rust-lang.org/book/title-page.html` learn rust 
+
+* `https://examples.near.org/` near examples
+
+* `https://docs.near.org/tools/near-cli` near cli
+
+* `near/near-blog/create-smart-contracts-on-near-protocol/index.html` blog on structure of near smart contracts
+
+
