@@ -1,4 +1,4 @@
-# Blockchain coourse.
+# Blockchain course.
 The purpose of this repo is to 
  1. Hold course work material and links.
  2. To hold sample projects and execise projects.
